@@ -1,0 +1,24 @@
+.header{
+
+  .logo{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+
+  .navbar{
+    align-items: center;
+    
+    &__list{
+
+      &__item{
+        font-size: 20px;
+        text-transform: capitalize;
+      }
+    }
+
+    .btn{
+      color: rgb(105, 171, 238);
+    }
+  }
+}
